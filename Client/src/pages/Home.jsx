@@ -1,8 +1,11 @@
-import React from 'react'
+import React,{useState} from 'react'
+import { FiSearch, FiX } from 'react-icons/fi';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+    <h1>Home</h1>
+    </>
   )
 }
 
