@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-const Links = () => {
+const Links = ({ to, text, className = '' }) => {
   return (
-    <div>Links</div>
-  )
-}
+    <li>
+      <NavLink
+        to={to}
+        className={`text-white font-bold hover:underline ${className}`}
+      >
+        {text}
+      </NavLink>
+    </li>
+  );
+};
 
-export default Links
+export default Links;
