@@ -12,6 +12,14 @@ const UserRoutes = () => {
         {
           path:'/',
           element:<Home/>
+        },
+        {
+          path:'/About',
+          element:<About/>
+        },
+        {
+          path:'*',
+          element:<h1 className='text-red-500 font-bold' > 404 Page Not Found!</h1>
         }
       ])
     },
