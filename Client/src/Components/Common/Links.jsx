@@ -1,12 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const Links = ({ to, text, className = '' }) => {
+const Links = ({ to, text, className }) => {
   return (
     <li>
       <NavLink
         to={to}
-        className={`text-white font-bold hover:underline ${className}`}
+        className={`text-blue-200 hover:text-white ${className}`}
       >
         {text}
       </NavLink>
