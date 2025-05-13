@@ -1,9 +1,9 @@
 import React from "react";
 import { Links } from "../index";
 import {MenuBar} from '../index'
+import { Link } from "react-router-dom";
 
 const NavbarLink = ({className}) => {
-
   const navLinks = [
       { to: '/', text: 'Home' },
       { to: '/research', text: 'Research' },
@@ -14,13 +14,14 @@ const NavbarLink = ({className}) => {
   ];
 
   return (
-        <nav className={className} >
-        {navLinks.map(({to,text})=>(
-            <ul  key={to} >
-            <Links to={to} text={text} />
-            </ul>
-        ))}
-      </nav>
+    <ul className={`${className} flex gap-2`} >
+    {navLinks.map(({to,text})=>(
+      <li key={to} >
+        <Link  to={to} >{text}</Link>
+        <hr className="sm:hidden border border-gray-600 my-2" />
+      </li>
+          ))}
+    </ul>
   );
 };
 

@@ -6,13 +6,12 @@ const MenuBar = ({className,onClick}) => {
 
     return (
       <>
-
-      <button onClick={onClick} >  
+      <div className={className} onClick={onClick} >
             {!show ? 
-            (<ReactIcon  className={className} onClick={()=>setShow(true)}  size={25} name='HamMenu' />) 
-            :(<ReactIcon className={className}  onClick={()=>setShow(false)}  size={25} name="ArrowSquarClose" />
+            (<ReactIcon  className='text-white border-2 p-1 rounded-full'  onClick={()=>setShow(true)}    size={40} name='HamMenu' />) 
+            :(<ReactIcon className='text-red-700 border-2 p-1 rounded-full'  onClick={()=>setShow(false)}  size={40} name="ArrowSquarClose" />
           ) }
-        </button>
+      </div>
       </>        
     )
 }
