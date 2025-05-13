@@ -18,6 +18,14 @@ const UserRoutes = () => {
           element:<About/>
         },
         {
+          path:'/Projects',
+          element:<Projects/>
+        },
+        {
+          path:'/About',
+          element:<About/>
+        },
+        {
           path:'*',
           element:<h1 className='text-red-500 font-bold' > 404 Page Not Found!</h1>
         }
