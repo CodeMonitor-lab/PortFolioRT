@@ -1,18 +1,19 @@
 import React, { useState } from 'react'
 import ReactIcon from '../../Store/ReactIcon';
+import useVisiblity from '../../hooks/useVisiblity';
+import {Visible} from '../index'
 
-const MenuBar = ({className,onClick}) => {
-    const [show,setShow] = useState(false)
+const MenuBar = ({isVisible,toggle,className}) => {
 
     return (
-      <>
-      <div className={className} onClick={onClick} >
-            {!show ? 
-            (<ReactIcon  className='text-white border-2 p-1 rounded-full'  onClick={()=>setShow(true)}    size={40} name='HamMenu' />) 
-            :(<ReactIcon className='text-red-700 border-2 p-1 rounded-full'  onClick={()=>setShow(false)}  size={40} name="ArrowSquarClose" />
-          ) }
+      <div className={className} >
+        {isVisible ? (
+          <ReactIcon onClick={toggle} color={'red'} name='ArrowRoundClose' size={25} />
+        ) : (
+          <ReactIcon onClick={toggle} color={'white'}  name='HamMenu' size={25} />
+        )  }
+           
       </div>
-      </>        
     )
 }
 

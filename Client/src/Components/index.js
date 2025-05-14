@@ -9,6 +9,7 @@ export {default as ToggleSearch} from './Common/ToggleSearch'
 export {default as Search} from './Common/Search'
 export {default as Logo} from './Common/Logo'
 export {default as MenuBar} from './Common/MenuBar'
+export {default as Visible} from './Common/Visible'
 // Layout
 export {default as AdminLayout } from './Layout/AdminLayout'
 export {default as AppLayout} from './Layout/AppLayout'
@@ -20,3 +21,5 @@ export {default as Footer} from './UI/Footer'
 export {default as Header} from './UI/Header'
 export {default as Hero} from './UI/Hero'
 export {default as NavbarLink} from './UI/NavbarLink'
+export {default as AdminHeader }from './UI/AdminHeader'
+

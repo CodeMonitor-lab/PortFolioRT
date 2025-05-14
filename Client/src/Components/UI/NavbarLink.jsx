@@ -1,9 +1,8 @@
 import React from "react";
-import { Links } from "../index";
 import {MenuBar} from '../index'
 import { Link } from "react-router-dom";
 
-const NavbarLink = ({className}) => {
+const NavbarLink = ({className,onLinkClick}) => {
   const navLinks = [
       { to: '/', text: 'Home' },
       { to: '/research', text: 'Research' },
@@ -14,11 +13,10 @@ const NavbarLink = ({className}) => {
   ];
 
   return (
-    <ul className={`${className} flex gap-2`} >
+    <ul onClick={onLinkClick} className={`${className} flex gap-2`} >
     {navLinks.map(({to,text})=>(
       <li key={to} >
-        <Link  to={to} >{text}</Link>
-        <hr className="sm:hidden border border-gray-600 my-2" />
+        <Link to={to} >{text}</Link>
       </li>
           ))}
     </ul>
