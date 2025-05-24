@@ -8,8 +8,8 @@ const AdminHeader = () => {
   const { isVisible, toggle } = useVisiblity(false);
 
   return (
-    <main className="bg-sky-600">
-      <header className="flex justify-between items-center px-4 py-2 relative">
+    <main className="bg-sky-100 border border-sky-600">
+      <header className="flex justify-between items-center px-4 sm:px-16 py-2 relative">
         {/* Logo */}
         <span>
           <Logo />
@@ -17,7 +17,7 @@ const AdminHeader = () => {
 
         {/* Desktop Navbar */}
         <div className="hidden sm:flex items-center gap-4">
-          <NavbarLink />
+          <NavbarLink className='text-lg text-sky-900' />
         </div>
 
         {/* Mobile Menu Button */}
@@ -27,8 +27,9 @@ const AdminHeader = () => {
 
         {/* Mobile Dropdown Menu */}
         <Visible when={isVisible}>
-          <div className="sm:hidden absolute top-full left-0 w-full bg-sky-500 z-10">
-            <NavbarLink onLinkClick={toggle} className='flex flex-col text-lg font-sans font-bold border px-4 py-5' />
+          <div className="sm:hidden absolute top-full left-0 w-full bg-sky-200 min-h-full z-10">
+            <NavbarLink onLinkClick={toggle} className='flex underline-offset-6 underline flex-col text-lg font-sans font-bold px-4 py-5' />
+            <hr className="border-2 border-sky-500" />
           </div>
         </Visible>
       </header>
