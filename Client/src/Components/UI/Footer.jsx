@@ -4,16 +4,16 @@ import {SocialIcon } from '../index'
 const Footer = () => {
   return (
     <main className='min-h-full bg-gradient-to-br from-purple-500' >
-      <section className='flex flex-col gap-4 justify-center items-center py-5' >
+      <section className='flex flex-col gap-3 justify-center items-center pt-6' >
         <div>
           <SocialIcon/>
         </div>
         <div>
-          <h1 className='text-sm sm:text-xl font-extrabold' >Building scalable solutions with clean code.</h1>
+          <h1 className='text-lg text-center sm:text-xl font-extrabold' >Building scalable solutions with clean code.</h1>
           <p className='text-center text-purple-900 font-bold' >In love ❤️ with code </p>
         </div>
-      <div className=' border-t py-4 w-full' >
-        <span className=' text-lg font-sans flex items-center justify-center'><strong>&copy;2025 portfolio All Rights Reseverd </strong></span>
+      <div className=' border-t w-full' >
+        <span className=' py-3 font-extralight  font-sans flex items-center justify-center'>&copy;2025 portfolio All Rights Reseverd</span>
       </div>
       </section>
     </main>
