@@ -8,7 +8,7 @@ const AdminHeader = () => {
   const { isVisible, toggle } = useVisiblity(false);
 
   return (
-    <main className=" bg-gradient-to-tr from-sky-200 to-purple-500 shadow-xl ">
+    <main className=" bg-gradient-to-br from-purple-100 to-purple-200 ">
       <header className="flex justify-between items-center px-4 sm:px-16 py-2 relative">
         {/* Logo */}
         <span>
@@ -27,9 +27,8 @@ const AdminHeader = () => {
 
         {/* Mobile Dropdown Menu */}
         <Visible when={isVisible}>
-          <div className="sm:hidden absolute top-full left-0 w-full bg-sky-200 min-h-full z-10">
-            <NavbarLink onLinkClick={toggle} className='flex underline-offset-6 underline flex-col text-lg font-sans font-bold px-4 py-5' />
-            <hr className="border-2 border-sky-500" />
+          <div className="sm:hidden absolute top-full left-0 w-full bg-gradient-to-r from-purple-100 to-purple-300 min-h-full z-10">
+            <NavbarLink onLinkClick={toggle} className='flex flex-col items-center text-purple-900 text-lg font-sans font-extrabold px-4 py-5' />
           </div>
         </Visible>
       </header>
