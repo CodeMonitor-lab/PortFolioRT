@@ -10,6 +10,8 @@ export {default as Search} from './Common/Search'
 export {default as Logo} from './Common/Logo'
 export {default as MenuBar} from './Common/MenuBar'
 export {default as Visible} from './Common/Visible'
+export {default as SocialIcon} from './Common/SocialIcon'
+
 // Layout
 export {default as AdminLayout } from './Layout/AdminLayout'
 export {default as AppLayout} from './Layout/AppLayout'

@@ -18,8 +18,9 @@ const Hero = () => {
           <h1 className='flex md:leading-13.5 text-center md:text-left leading-10 md:text-5xl sm:text-6xl text-3xl font-serif font-black ' >{headerData[0].heading}</h1>
         </div>
         <article className='p-3 gap-2 ' >
-        {/*  */}
+        <div className='hidden sm:block' >
         <ProfileImage/>
+        </div>
           <div className='flex justify-center pt-1 sm:pt-4'>
           <p className='text-xl text-center md:text-center leading-7 sm:leading-10 font-medium md:text-3xl sm:text-3xl  font-serif sm:pb-3 pb-3 ' >{headerData[0].para}</p>
           </div>

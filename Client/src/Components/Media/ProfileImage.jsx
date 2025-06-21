@@ -6,7 +6,7 @@ import Styles from './ProfileImage.module.css'
 
 const ProfileImage = () => {
   return (
-    <main>
+    <main >
         <section className=' flex justify-center' >
             <img className={Styles.image_radius} width={300} height={300} src={genImg} alt="Profile-Image" />
         </section>
