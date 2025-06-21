@@ -16,6 +16,7 @@ export {default as AppLayout} from './Layout/AppLayout'
 export {default as Sidebar} from './Layout/Sidebar'
 // Media
 export {default as Avatar} from './Media/Avatar'
+export {default as ProfileImage} from './Media/ProfileImage'
 // UI
 export {default as Footer} from './UI/Footer'
 export {default as Header} from './UI/Header'

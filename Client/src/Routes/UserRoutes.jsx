@@ -1,7 +1,7 @@
 import React from 'react'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import { AppLayout,AdminLayout} from '../Components/index'
-import {Home,About,Projects, Dashboard} from '../pages/index'
+import {Home,About,Projects, Dashboard, Skills, PageNotFound} from '../pages/index'
 
 const UserRoutes = () => {
   const router = createBrowserRouter([
@@ -26,8 +26,12 @@ const UserRoutes = () => {
           element:<About/>
         },
         {
+          path:'/Skills',
+          element:<Skills/>
+        },
+        {
           path:'*',
-          element:<h1 className='text-red-500 font-bold' > 404 Page Not Found!</h1>
+          element:<PageNotFound/>
         }
       ])
     },
