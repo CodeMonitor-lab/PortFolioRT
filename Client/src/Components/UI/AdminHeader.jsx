@@ -8,7 +8,7 @@ const AdminHeader = () => {
   const { isVisible, toggle } = useVisiblity(false);
 
   return (
-    <main className="bg-sky-100 border border-sky-600">
+    <main className=" bg-gradient-to-tr from-sky-200 to-purple-500 shadow-xl ">
       <header className="flex justify-between items-center px-4 sm:px-16 py-2 relative">
         {/* Logo */}
         <span>
@@ -17,7 +17,7 @@ const AdminHeader = () => {
 
         {/* Desktop Navbar */}
         <div className="hidden sm:flex items-center gap-4">
-          <NavbarLink className='text-lg text-sky-900' />
+          <NavbarLink className='text-lg font-semibold text-sky-900' />
         </div>
 
         {/* Mobile Menu Button */}
