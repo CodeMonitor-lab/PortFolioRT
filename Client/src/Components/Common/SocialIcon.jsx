@@ -7,11 +7,11 @@ import { NavLink } from "react-router-dom";
 
 const SocialIcon = () => {
   return (
-    <ul className="gap-2 flex ">
-      <li><NavLink><FaSquareInstagram size={25} /></NavLink></li>
-      <li><NavLink><SiGithub size={25}/></NavLink></li>
-      <li><NavLink><FaFacebook size={25}/></NavLink></li>
-      <li><NavLink><FaLinkedin size={25}/></NavLink></li>
+    <ul className="gap-4 flex ">
+      <li className="" ><NavLink><FaSquareInstagram color={'darkred'} size={30} /></NavLink></li>
+      <li><NavLink><SiGithub color={'black'} size={30}/></NavLink></li>
+      <li><NavLink><FaFacebook color={'darkblue'} size={30}/></NavLink></li>
+      <li><NavLink><FaLinkedin color={'darkblue'} size={30}/></NavLink></li>
     </ul>
   );
 };
