@@ -17,7 +17,7 @@ const AdminHeader = () => {
 
         {/* Desktop Navbar */}
         <div className="hidden sm:flex items-center gap-4">
-          <NavbarLink className='text-lg font-semibold text-sky-900' />
+          <NavbarLink className='text-xl font-extrabold font-serif text-blue-900' />
         </div>
 
         {/* Mobile Menu Button */}
@@ -28,7 +28,7 @@ const AdminHeader = () => {
         {/* Mobile Dropdown Menu */}
         <Visible when={isVisible}>
           <div className="sm:hidden absolute top-full left-0 w-full bg-gradient-to-r from-purple-100 to-purple-300 min-h-full z-10">
-            <NavbarLink onLinkClick={toggle} className='flex flex-col items-center text-purple-900 text-lg font-sans font-extrabold px-4 py-5' />
+            <NavbarLink onLinkClick={toggle} className='flex flex-col items-center text-purple-900 text-lg font-serif font-extrabold px-4 py-5' />
           </div>
         </Visible>
       </header>

@@ -3,7 +3,7 @@ import {SocialIcon } from '../index'
 
 const Footer = () => {
   return (
-    <main className='min-h-full bg-gradient-to-br from-purple-500' >
+    <main className='min-h-full bg-gradient-to-tl from-purple-100 to-purple-500 ' >
       <section className='flex flex-col gap-3 justify-center items-center pt-6' >
         <div>
           <SocialIcon/>
