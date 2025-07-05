@@ -1,0 +1,59 @@
+[
+    {
+      "img": "/Icons/html.svg",
+      "name": "HTML"
+    },
+    {
+      "img": "/Icons/css.svg",
+      "name": "CSS"
+    },
+    {
+      "img": "/Icons/vanilajs.svg",
+      "name": "JavaScript"
+    },
+    {
+        "img": "/Icons/nodejs.svg",
+        "name": "Nodejs"
+      },
+      {
+        "img": "/Icons/react.svg",
+        "name": "React js"
+      },
+      {
+        "img": "/Icons/redux.svg",
+        "name": "Redux"
+      },
+      {
+        "img": "/Icons/nodejs2.svg",
+        "name": "Nodejs"
+      },
+      {
+        "img": "/Icons/git.svg",
+        "name": "Git"
+      },
+   {
+        "img": "/Icons/html.svg",
+        "name": "HTML"
+      },
+      {
+        "img": "/Icons/css.svg",
+        "name": "CSS"
+      },
+      {
+        "img": "/Icons/vanilajs.svg",
+        "name": "JavaScript"
+      },
+      {
+        "img": "/Icons/npm.svg",
+        "name": "NPM"
+      },
+      {
+        "img": "/Icons/express.svg",
+        "name": "Express js"
+      },
+      {
+        "img": "/Icons/vscode.svg",
+        "name": "VSCode"
+      }
+  ]
+  

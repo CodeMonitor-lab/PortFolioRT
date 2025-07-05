@@ -1,16 +1,20 @@
 import React from 'react'
-import assets from '../../assets/index'
+import Icons from '../../assets/Icons.json'
 
 const AllSkills = () => {
+  console.log(Icons)
+
   return (
     <main>
       <section>
-        <ul>
+        <ul className='flex flex-wrap justify-center items-center gap-x-10 gap-y-10' >
           {
-            assets.map((skills,index)=>(
-              <li>
-              <img src={assets.html} alt="" />
-            </li>
+            Icons.map((Icon,index)=>(
+              <li key={index} >
+                <img className="w-14" src={Icon.img} alt="" />
+                <p>{Icon.name}</p>
+                {/* <p>{Icon.img}</p> */}
+              </li>
             ))
           }
         </ul>
