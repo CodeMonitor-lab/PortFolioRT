@@ -25,4 +25,13 @@ export {default as Header} from './UI/Header'
 export {default as Hero} from './UI/Hero'
 export {default as NavbarLink} from './UI/NavbarLink'
 export {default as AdminHeader }from './UI/AdminHeader'
+export {default as WeDo }from './UI/WeDo'
+export {default as Specialties }from './UI/Specialties'
+export {default as Experiences }from './UI/Experiences'
+export {default as AllSkills }from './UI/AllSkills'
+
+// Cards 
+export {default as WeDoIt }from './Cards/WeDoIt'
+export {default as OurWork }from './Cards/OurWork'
+
 

@@ -1,14 +1,17 @@
-import React,{Children, useState} from 'react'
-import {Hero} from '../Components/index'
+import React, { Children, useState } from "react";
+import { Hero,WeDo,Specialties,WeDoIt,OurWork } from "../Components/index";
 
 const Home = () => {
 
   return (
-    <>
+   <main  >
     <Hero/>
-    {/* <h1>Home</h1> */}
-    </>
-  )
-}
+    <WeDo/>
+    <Specialties/>
+    <WeDoIt/>
+    <OurWork/>
+   </main>
+  );
+};
 
-export default Home
+export default Home;

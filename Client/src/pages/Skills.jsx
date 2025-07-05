@@ -1,8 +1,11 @@
 import React from 'react'
+import {AllSkills} from '../Components/index'
 
 const Skills = () => {
   return (
-    <div>Skills</div>
+    <main>
+      <AllSkills/>
+    </main>
   )
 }
 

@@ -1,0 +1,14 @@
+{
+    "article_1":{
+        "title":"What we do",
+        "heading": "We help our clients design their place in the world.",
+        "para1":"Brands come to us with ambition. We turn that ambition into a sharp vision and the tools to bring it to life in a noisy world.",
+        "para2": "Our designers, strategists, and technologists partner with industry leaders across sectors to build lasting brand value with purpose and originality."
+    },
+    "wedoit":{
+        "title":"How we do it",
+        "heading":"We make brands that get to work.",
+        "para1":"Getting brands to work means going outside the guidelines, prioritizing tools over rules.",
+        "para2": "Everything we make is designed to scale, from strategic frameworks that spark campaign concepts to generative tools that help non-designers produce high-fidelity, on-brand design assets."
+    }
+}
