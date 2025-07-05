@@ -10,16 +10,28 @@ export {default as Search} from './Common/Search'
 export {default as Logo} from './Common/Logo'
 export {default as MenuBar} from './Common/MenuBar'
 export {default as Visible} from './Common/Visible'
+export {default as SocialIcon} from './Common/SocialIcon'
+
 // Layout
 export {default as AdminLayout } from './Layout/AdminLayout'
 export {default as AppLayout} from './Layout/AppLayout'
 export {default as Sidebar} from './Layout/Sidebar'
 // Media
 export {default as Avatar} from './Media/Avatar'
+export {default as ProfileImage} from './Media/ProfileImage'
 // UI
 export {default as Footer} from './UI/Footer'
 export {default as Header} from './UI/Header'
 export {default as Hero} from './UI/Hero'
 export {default as NavbarLink} from './UI/NavbarLink'
 export {default as AdminHeader }from './UI/AdminHeader'
+export {default as WeDo }from './UI/WeDo'
+export {default as Specialties }from './UI/Specialties'
+export {default as Experiences }from './UI/Experiences'
+export {default as AllSkills }from './UI/AllSkills'
+
+// Cards 
+export {default as WeDoIt }from './Cards/WeDoIt'
+export {default as OurWork }from './Cards/OurWork'
+
 

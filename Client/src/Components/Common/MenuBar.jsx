@@ -8,9 +8,9 @@ const MenuBar = ({isVisible,toggle,className}) => {
     return (
       <div className={className} >
         {isVisible ? (
-          <ReactIcon className='border rounded-full' onClick={toggle} color={'red'} name='ArrowRoundClose' size={30} />
+          <ReactIcon onClick={toggle} color={'darkred'} name='ArrowRoundClose' size={30} />
         ) : (
-          <ReactIcon className='border rounded-full' onClick={toggle} color={'black'}  name='HamMenu' size={30} />
+          <ReactIcon onClick={toggle} color={'purple'}  name='HamMenu' size={35} />
         )  }
            
       </div>

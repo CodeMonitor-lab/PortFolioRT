@@ -5,18 +5,19 @@ import { Link } from "react-router-dom";
 const NavbarLink = ({className,onLinkClick}) => {
   const navLinks = [
       { to: '/', text: 'Home' },
-      { to: '/research', text: 'Research' },
-      { to: '/hiring', text: 'Hiring' },
+      { to: '/skills', text: 'Skills' },
       { to: '/projects', text: 'Projects' },
-      { to: '/about', text: 'About' },
-      { to: '/dashboard', text: 'Dashboard' },
+      {to:'/contact',text:'Connect-With'},
+      { to: '/hiring', text: 'Hiring' },
+      { to: '/about', text: 'me!' },
+      // { to: '/dashboard', text: 'Dashboard' },
   ];
 
   return (
     <ul onClick={onLinkClick} className={`${className} flex gap-2`} >
     {navLinks.map(({to,text})=>(
       <li key={to} >
-        <Link to={to} >{text}</Link>
+        <Link className="hover:text-blue-900" to={to} >{text}</Link>
       </li>
           ))}
     </ul>
