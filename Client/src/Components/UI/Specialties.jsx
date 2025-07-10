@@ -2,17 +2,19 @@ import React from 'react'
 
 const Specialties = () => {
   return (
-    <main>
-        <ul className='' >
-            <h1 className='sm:text-left text-center text-2xl pb-2 pt-5 font-semibold text-purple-950' >Our Specialties</h1>
-            <ol className='flex flex-col gap-5 pt-5 text-3xl sm:text-8xl text-purple-950 font-bold font-serif leading-14 sm:leading-20' >
+    <section>
+      <article>
+        <p className='text-title-sm md:text-title-md font-black text-text-secondary' >Our Specialties</p>
+        <ul className='bg-sky-200 py-4 px-4 rounded-tr-4xl rounded-xl ' >
+            <ol className='flex flex-col gap-0 font-black sm:gap-4 text-heading-sm md:text-heading-md font-primary text-text-primary leading-8 sm:leading-14' >
             <li>Brand Strategy</li>
             <li>Identity Systems</li>
             <li>Digital Experiences</li>
             <li>Next-Gen Innovation</li>
             </ol>
         </ul>
-    </main>
+      </article>
+      </section>
   )
 }
 

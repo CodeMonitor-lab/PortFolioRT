@@ -1,9 +1,10 @@
 import React from 'react'
-import {AllSkills} from '../Components/index'
+import {AllSkills,SkillHero} from '../Components/index'
 
 const Skills = () => {
   return (
     <main>
+      <SkillHero/>
       <AllSkills/>
     </main>
   )

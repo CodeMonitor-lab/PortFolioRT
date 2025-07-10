@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 const NavbarLink = ({className,onLinkClick}) => {
   const navLinks = [
       { to: '/', text: 'Home' },
-      { to: '/skills', text: 'Skills' },
-      { to: '/projects', text: 'Projects' },
-      {to:'/contact',text:'Connect-With'},
-      { to: '/hiring', text: 'Hiring' },
-      { to: '/about', text: 'me!' },
+      { to: '/Projects', text: 'Works' },
+      { to: '/Skills', text: 'Expertise' },
+      { to: '/Hirigns', text: 'Hiring' },
+      {to:'/Contact',text:'Connect-With'},
+      { to: '/About', text: 'Me!' },
       // { to: '/dashboard', text: 'Dashboard' },
   ];
 

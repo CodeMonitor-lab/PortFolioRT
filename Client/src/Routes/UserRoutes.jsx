@@ -1,7 +1,7 @@
 import React from 'react'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import { AppLayout,AdminLayout} from '../Components/index'
-import {Home,About,Projects, Dashboard, Skills, PageNotFound} from '../pages/index'
+import {Home,About,Contact,Hirigns,Projects, Dashboard, Skills, PageNotFound} from '../pages/index'
 
 const UserRoutes = () => {
   const router = createBrowserRouter([
@@ -28,6 +28,14 @@ const UserRoutes = () => {
         {
           path:'/Skills',
           element:<Skills/>
+        },
+        {
+          path:'/Contact',
+          element:<Contact/>
+        },
+        {
+          path:"/Hirigns",
+          element:<Hirigns/>
         },
         {
           path:'*',
