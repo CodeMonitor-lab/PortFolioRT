@@ -28,12 +28,12 @@ const Hirigns = () => {
   return (
     <main>
         <HiringsHero/>
-        <section>
-            <article className='flex flex-col gap-6 list-none' >
+        <section >
+            <article className=' compo-spacing' >
                 {HiringsCont.map((hiring,index)=>(
                     <li className='flex flex-col gap-2 '  key={index} >
-                        <h2 className='text-3xl font-serif font-bold' >{hiring.title}</h2>
-                        <p className='text-xl leading-7 ' >{hiring.para}</p>
+                        <h2 className='text-title-md sm:text-heading text-text-primary font-black font-primary leading-10 sm:leading-16 ' >{hiring.title}</h2>
+                        <p className='text-para-sm  text-text-primary font-bold font-secondary leading-6 sm:leading-9 ' >{hiring.para}</p>
                     </li>
                 ))}
             </article>

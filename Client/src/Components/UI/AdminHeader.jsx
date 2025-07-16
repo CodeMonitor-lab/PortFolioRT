@@ -8,7 +8,7 @@ const AdminHeader = () => {
   const { isVisible, toggle } = useVisiblity(false);
 
   return (
-    <main className=" bg-gradient-to-br from-purple-100 to-purple-200 ">
+    <main style={{backgroundColor:"var(--nav-bg)"}} className="border-b-2 border-b-yellow-600  ">
       <header className="flex justify-between items-center px-4 sm:px-16 py-2 relative">
         {/* Logo */}
         <span>
@@ -17,7 +17,7 @@ const AdminHeader = () => {
 
         {/* Desktop Navbar */}
         <div className="hidden sm:flex items-center gap-4">
-          <NavbarLink className='text-xl font-extrabold font-serif text-blue-900' />
+          <NavbarLink className='text-title-sm text-text-primary' />
         </div>
 
         {/* Mobile Menu Button */}

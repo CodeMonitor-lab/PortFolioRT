@@ -1,6 +1,8 @@
 // Auth
 export {default as Login} from './Auth/Login'
 export {default as Signup} from './Auth/Signup'
+export {default as ContactArea } from './Auth/ContactArea'
+
 // Common
 export {default as ButtonSubmit} from './Common/ButtonSubmit'
 export {default as Input } from './Common/Input'

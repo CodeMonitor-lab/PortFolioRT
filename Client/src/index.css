@@ -12,12 +12,31 @@
   --text-heading-sm:1.5rem;
   --text-para-sm:1.2rem;
   /* Typography Tablet Sizes */
-  --text-title-md: 1.5rem;
+  --text-title-md: 2rem;
   --text-heading-md:3.5rem;
   --text-para-md:1.4rem;
   /* Typography Size Laptop */
   --text-heading-lg: 3.5rem;
-  --text-para-lg: 2.10rem;
+  --text-para-lg: 1.4rem;
+  --text-link-size-md:2rem;
+
+  /* all backgrounds */
+  --hero-bg:#fbbf24;
+  --card-bg:#fbbf84;
+  --nav-bg:#fbbf24;
+  --footer-bg:#fbbf24;
+}
+
+.compo-spacing{
+  /* background: var(--card-bg-color); */
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  /* padding-left: 4rem; */
+  padding: 4rem;
+}
+.grid-gap{
+  @apply: bg-blue-200;
 }
 
 
