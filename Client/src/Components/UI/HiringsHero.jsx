@@ -2,7 +2,7 @@ import React from 'react'
 
 const HiringsHero = () => {
   return (
-    <section style={{backgroundColor:"var(--hero-bg)"}} className='p-10'>
+    <section className='bg-gray-50 shadow-sm p-10'>
          <article>
                 <h1 className='pb-2  md:text-heading-md font-black text-text-primary' >We're Hiring - Join Our Team!</h1>
                 <ul>

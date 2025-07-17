@@ -32,7 +32,7 @@ const ContactAreaText = () => {
     <main>
      <section>
        <p className="pb-6 text-text-primary sm:font-black font-light text-heading-sm sm:text-heading-lg ">{article.para}</p>
-      <article className="grid gap-4 sm:font-black font-light text-text-primary text-para-sm sm:text-para-md" >
+      <article className="grid gap-4 sm:font-black font-light text-text-primary text-para-sm sm:text-para-emd" >
         <div>
           <p >Say hi👋</p>
           <span className="underline underline-offset-4" >niteshcse3333@gmail.com</span>

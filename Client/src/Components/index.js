@@ -35,6 +35,8 @@ export {default as AllSkills }from './UI/AllSkills'
 export {default as SkillHero }from './UI/SkillHero'
 export {default as AboutSummery }from './UI/AboutSummery'
 export {default as HiringsHero }from './UI/HiringsHero'
+export {default as ProjectHero }from './UI/ProjectHero'
+export {default as ProjectCard }from './UI/ProjectCard'
 
 // Cards 
 export {default as WeDoIt }from './Cards/WeDoIt'
