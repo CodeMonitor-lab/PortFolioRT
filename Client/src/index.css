@@ -23,12 +23,12 @@
   /* all backgrounds */
   --hero-bg:#fbbf24;
   --card-bg:#fbbf84;
-  --nav-bg:#fbbf24;
+  /* --nav-bg:#fbbf24; */
   --footer-bg:#fbbf24;
 }
 
 .compo-spacing{
-  /* background: var(--card-bg-color); */
+  background: var(--card-bg-color);
   display: flex;
   flex-direction: column;
   gap: 2.5rem;

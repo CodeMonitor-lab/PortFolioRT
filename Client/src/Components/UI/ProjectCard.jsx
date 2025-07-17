@@ -1,19 +1,26 @@
 import React from 'react'
 import workImg from '../../assets/work.png'
 import {ButtonSubmit} from '../index'
+import AdminDashboard from '/AdminDashboard.png'
+import portfolio from '/Portfolio.png'
 
 const ProjectCard = () => {
     const artilce= [
         {
-            img:workImg,
+            img:AdminDashboard,
             heading:"Role Based Acess Control{RBAC)",
             para:"Creating a Role-Based-User-Authentication and User-Autharization using with MongoDB, Express, React, Node-js ",
         },
         {
-            img:workImg,
-            heading:"Simple Blog-App",
+            img:portfolio,
+            heading:"Portfolio",
             para:"Building Responsive design and full functional MERN Bloggin Website with CRUD Admin Panel to manage posts and day to day tasks "
             
+        },
+        {
+            img:portfolio,
+            heading:"Simple Blog-App",
+            para:"Building Responsive design and full functional MERN Bloggin Website with CRUD Admin Panel to manage posts and day to day tasks "
         },
         {
             img:workImg,
@@ -21,7 +28,7 @@ const ProjectCard = () => {
             para:"Building Full Stack User Authentication and Autharization using helps of MongoDB,Express js,Node js, Fornted library like React js "
         },
         {
-            img:workImg,
+            img:AdminDashboard,
             heading:"TwillioVerification",
             para:"Building an account confirmation password generator using with twilio one time password or whatsapp messaging in programable ",
         },
@@ -39,7 +46,7 @@ const ProjectCard = () => {
                 <h1 className='text-title-md text-text-primary font-black pb-4' >Our Works</h1>
                 <ul className='grid lg:grid-cols-3 md:grid-cols-3 gap-10'  >
                 {artilce.map((item,index)=>(
-                    <ol className=' shadow-md shadow-gray-400 grid p-4 gap-4' key={index} >
+                    <ol className=' shadow-md rounded-md border grid p-4 gap-4' key={index} >
                         <li className='flex flex-col gap-2' >  
                             <img className=' shadow-md h-70 ' src={item.img} alt="" />
                             <p className='text-para-md text-text-primary underline underline-offset-4 font-black font-serif ' >{item.heading}</p>

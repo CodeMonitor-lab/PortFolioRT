@@ -8,7 +8,7 @@ const AdminHeader = () => {
   const { isVisible, toggle } = useVisiblity(false);
 
   return (
-    <main style={{backgroundColor:"var(--nav-bg)"}} className="border-b-2 border-b-yellow-600  ">
+    <main className="shadow-lg bg-gray-50 shadow-gray-200  ">
       <header className="flex justify-between items-center px-4 sm:px-16 py-2 relative">
         {/* Logo */}
         <span>
